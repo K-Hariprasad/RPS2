@@ -4,10 +4,11 @@ class Result extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <h1>Result page</h1>
-                <br/>
-                <h3>Welcome {this.props.username}</h3>
-                <h1>{this.props.greetings}</h1>
+                
+                <div id="result">
+                    <p className="text-center">{this.props.greetings} {this.props.username}</p><br/>
+                    <p className="text-center">{this.props.msg}</p>
+                </div>
             </React.Fragment>
         )
     }

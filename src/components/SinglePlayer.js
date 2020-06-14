@@ -20,14 +20,14 @@ class SinglePlayer extends React.Component {
         }
         else if( (user===1&&com===3) || (user===2 && com===1) || (user===3&&com===2) ){        
           this.setState({userScore:this.state.userScore+1,message:"You got it...!"})
-          if(this.state.userScore===4){
+          if(this.state.userScore===19){
             this.setState({uWin:true})           
           }
         }
         else {
           
           this.setState({comScore:this.state.comScore+1,message:"Ohh sorry...!"})
-          if(this.state.comScore===4){
+          if(this.state.comScore===19){
             this.setState({cWin:true})
           }
         }
@@ -37,7 +37,7 @@ class SinglePlayer extends React.Component {
       return <Result username={this.props.user.toUpperCase()} greetings="Congartulations" msg="You won the game..!"></Result>        
     }
     else if(this.state.cWin){
-      return <Result username={this.props.user.toUpperCase()} greetings="Sorry" msg="You lose the game..!"></Result>
+      return <Result username={this.props.user.toUpperCase()} greetings="Ohh Sorry" msg="You lose the game..!"></Result>
     }
     else{
       return(
