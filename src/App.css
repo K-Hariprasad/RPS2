@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  background-image: url("./images/2766672.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#errorMsg{
+  font-size: 15px;
+}
+
+#single-game{
+  background-color: #272727;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.score-title{
+  border: white 1px solid;
+  padding-left: 5%;
+  padding-top: .5%;
+  padding-bottom: .5%;
+  padding-right: 5%;
+  color:white;
+  margin:1%
+}
+#score-card{
+  font-size: 30px;
+  color: orangered;
+}
+.bt{
+  border-radius: 50%;
+  background-color: orangered;
+  height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 25px;
+}
+.bt:hover{
+  background-color: #272727;
+  color: orangered;
+  border: orangered 2px solid;
+}
+.msg{
+  font-size: 30px;
+  border:orangered 1px solid;
+  padding: 1%;
+}
+.screen{
+  border:orangered 1px solid;
+  color: white;
+  font-size: 70px;
+}
+.user-screen{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.keys{
+  border:white 1px solid;
+  padding: 2%;
+}
+.heading{
+  padding-top: 8%;
+}
