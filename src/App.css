@@ -87,3 +87,12 @@
   justify-content: center;
   color: white;
 }
+.result{
+  padding: 20%;
+}
+.result-greet{
+  font-size: 20px;
+}
+.result-msg{
+  color: orangered;
+}
