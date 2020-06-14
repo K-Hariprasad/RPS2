@@ -9,10 +9,10 @@ class Result extends React.Component{
             <React.Fragment>
                 
                 <div id="result">
-                    <div className="result">
+                    <div className="result text-center">
                     <p className="text-center result-greet">{this.props.greetings} {this.props.username}</p><br/>
                     <p className="text-center result-msg display-4">{this.props.msg}</p><br/>
-                    <button className="btn btn-primary" onClick={this.refresh}>Play again</button>
+                    <button className="text-center btn btn-primary" onClick={this.refresh}>Play again</button>
                     </div>
                 </div>
             </React.Fragment>
